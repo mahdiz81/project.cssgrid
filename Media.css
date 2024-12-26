@@ -1,0 +1,133 @@
+
+@media (max-width: 676px) {
+  .header-bottom {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .content-left {
+    width: 100%;
+    text-align: center;
+  }
+  .content-left p {
+    max-width: 100%;
+    margin:1.5rem  0;
+  }
+  .order-food-desktop {
+    display: none;
+  }
+  .order-food-mobile {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .svg-delivery {
+  position: static;
+  width: 22%;
+  }
+  .action-order > button{
+    padding: 9px;
+  }
+  .action-order > .btn-action-order{
+    margin-top: -2px;
+  }
+}
+
+@media (min-width: 677px) {
+  .order-food-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 834px) {
+  .navigation {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .navigation > ul {
+    display: none;
+  }
+
+  .link-navigation {
+    justify-self: center;
+  }
+
+  .icon-menu img {
+    justify-self: flex-end;
+  }
+
+  .order-food {
+    margin-top: 2rem;
+  }
+
+  .content-left h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .content-left p {
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: 400;
+  }
+
+  .btn-action-order {
+    max-width: 54%;
+    padding: 5px 10px;
+    gap: 2px;
+  }
+
+  .action-order {
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+
+  .action-order > button {
+    padding: 16px;
+    font-size: 14px;
+  }
+
+  .order-now {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .svg-delivery {
+    padding: 6px;
+    top: -10rem; /* یا هر مقدار دلخواه دیگر */
+    left: -2rem; /* یا هر مقدار دلخواه دیگر */
+  }
+
+  .svg-delivery div span {
+    font-size: 19px;
+  }
+  /* .row-grid-food-products{
+     grid-template-columns: repeat(2,1fr); 
+
+  } */
+}
+
+@media (max-width: 882px) {
+  .header-bottom {
+    margin-top: 2rem;
+  }
+
+  .svg-delivery {
+    top: 1rem;
+    /* این مقدار را در صورت نیاز تغییر دهید */
+  }
+}
+
+@media (max-width: 1042px) {
+  .action-order {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 834px) {
+  .icon-menu img {
+    display: none;
+  }
+}
